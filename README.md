@@ -28,6 +28,14 @@ This project is a minimal, efficient Retrieval-Augmented Generation (RAG) system
 ## 📚 How to Use
 
 ```sh
+% ./wiki-rag 
+Specify the --query option to search
+Usage of ./wiki-rag:
+  -lang string
+    	Wikipedia language, e.g. 'en', 'ru' (default "en")
+  -query string
+    	Wikipedia query
+
 % ./wiki-rag -query "otto klemperer in the usa" -lang en
 ....................
 Otto Klemperer in the USA refers to the period when Klemperer, a German-born conductor and composer, lived and worked in the United States. Klemperer was widely regarded as one of the leading conductors of the 20th century. He fled Germany in 1933 due to the rise of the Nazi Party and settled in the United States, where he had a significant impact on American classical music.
